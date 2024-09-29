@@ -35,7 +35,7 @@ pos = strd.find('Wind')
 other_data = strd[pos:]
 
 # printing all the data
-print("Temperature is", temp)
-print("Time: ", time)
+print("Temperature: ", temp)
+print("Time is", time)
 print("Sky Description: ", sky)
 print(other_data)
