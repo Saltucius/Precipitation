@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cee6a727-ef94-4f9b-aa5c-98fed5161b89" name="Changes" comment="created my own branch ... djjw">
+    <list default="true" id="cee6a727-ef94-4f9b-aa5c-98fed5161b89" name="Changes" comment="Updated text strings">
+      <change afterPath="$PROJECT_DIR$/weather.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,22 +35,22 @@
     &quot;assignee&quot;: &quot;Saltucius&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Saltucius/Precipitation.git",
-    "accountId": "39ae04dc-6911-4f00-bd97-d54d15757296"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Saltucius/Precipitation.git&quot;,
+    &quot;accountId&quot;: &quot;39ae04dc-6911-4f00-bd97-d54d15757296&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "Saltucius",
-    "repository": "Precipitation"
+    &quot;owner&quot;: &quot;Saltucius&quot;,
+    &quot;repository&quot;: &quot;Precipitation&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -65,16 +66,23 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
+    "Python.weather.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#5 on djjw",
+    "git-widget-placeholder": "develop-api-bw",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Brian/Documents/Job Search/Projects/Hello Git"
+    "last_opened_file_path": "C:/Users/Brian/Documents/Job Search/Projects/Hello Git",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Brian\Documents\Job Search\Projects\Precipitation" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -120,7 +128,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Push" />
-    <MESSAGE value="created my own branch ... djjw" />
-    <option name="LAST_COMMIT_MESSAGE" value="created my own branch ... djjw" />
+    <MESSAGE value="Updated text strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated text strings" />
   </component>
 </project>
