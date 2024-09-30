@@ -1,13 +1,29 @@
 import requests
 from bs4 import BeautifulSoup
+import pgeocode
+import zipcodes
 
 print('new branch ... djjw')
 
-city = input("Enter City: ")
+zipcode = input('Input zip code: ')
+
+zip_info = zipcodes.matching(zipcode)
+if zip_info:
+    city = zip_info[0]['city']
+
+print(f'City for zipcode {zipcode} is {city}')
+
+# get geolocation coordinates (latitude/longitude) for requested zip code
+nomi = pgeocode.Nominatim('us')
+location = nomi.query_postal_code(zipcode)
+print(f'Geolocation for {zipcode} is {location.latitude}, {location.longitude}')
+
+#city = input("Enter City: ")
+print('Chosen city is ' + city)
 print("Current weather in " + city + ":")
 
 # create url
-url = "https://www.google.com/search?q="+"weather"+city
+url = "https://www.google.com/search?q="+"weather"+zipcode
 
 # requests instance
 html = requests.get(url).content
